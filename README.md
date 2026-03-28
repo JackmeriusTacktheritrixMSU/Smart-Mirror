@@ -59,14 +59,6 @@ BOM
 | 16mm Momentary Switch | — | — | [View](https://amazon.com/APIELE-Momentary-Waterproof-Stainless-Terminals/dp/B09SLHQVHL) | ✅ |
 | DC-DC Converter | — | — | [View](https://amazon.com/Stabilizer-DROK-Waterproof-Transformer-Television/dp/B081RG8XP5) | ✅ |
 
----
-
-## 💰 Project Cost Summary
-
-| Category | Cost |
-|----------|------|
-| Parts to Purchase | **$297.87** |
-| Components Already Owned | 3 |
 | Estimated Total Project Cost | **$297.87** |
 
 - — = Cost not counted toward build total
