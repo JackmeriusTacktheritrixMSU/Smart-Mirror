@@ -61,7 +61,8 @@ BOM
 | JSN-SR04T Ultrasonic Sensor | — | — | [View](https://www.amazon.com/HiLetgo-Integrated-Ultrasonic-Transducer-Waterproof/dp/B07X5H77T7) | ✅ |
 | 16mm Momentary Switch | — | — | [View](https://amazon.com/APIELE-Momentary-Waterproof-Stainless-Terminals/dp/B09SLHQVHL) | ✅ |
 | DC-DC Converter | — | — | [View](https://amazon.com/Stabilizer-DROK-Waterproof-Transformer-Television/dp/B081RG8XP5) | ✅ |
-
-| Estimated Total Project Cost | **$297.87** |
+| SHT30 Sensor| — | — | [View](https://www.adafruit.com/product/5064?srsltid=AfmBOorFtoxeVo1_rGB0Ptb9_4VkyDuGQjxKZTMGRHcSOYPGJ1WbQ4jiU8Y) | ✅ |
+| Logitech C910| — | — | [View](https://www.ebay.com/itm/227025394101?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item) | ✅ |
+| Estimated Total Project Cost | **$$242.90** |
 
 - — = Cost not counted toward build total
