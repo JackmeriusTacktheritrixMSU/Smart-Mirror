@@ -36,7 +36,8 @@ Two 2x2s, each 10 inches long
 
 The project uses a Raspberry Pi 4B, which sits on a 3D Printed electronics sled which screws into the frame, along with a DC-DC Converter. The DC-DC Converter is automotive grade with a 5A max. The purpose here is so you can use just one power supply unit, at 12V and no less than 5A, to power the monitor and the Raspberry Pi. The PSU plugs in via Barrel Jack Receptacle. Additionally, you may want some kind of push button switch. Get one with a threaded circular back and just drill a hole for it. For AR capabilities, you need a webcam as well. You can route a hole, and plug it in via usb to the raspberry pi. If you're totally neurotic like me, you'll probably craft a way to send the webcam to a gpio pin just because you don't want to route usb all the way to the other side of the pi because it would look bad
 <img width="860" height="615" alt="image" src="https://github.com/user-attachments/assets/8fdbb6a1-4102-4015-ba40-87086d25fd3e" />
-<img width="1346" height="848" alt="WiringDiagram" src="https://github.com/user-attachments/assets/9a23f0ae-6b83-45a6-b674-f6a674a32ade" />
+<img width="3000" height="2106" alt="circuit_image" src="https://github.com/user-attachments/assets/f05cf2ee-01d5-4e96-859f-4481de186453" />
+
 
 *Programming* 
 The mirror uses Magic Mirror OS. Full credit goes to Guysoft and their collaborators https://github.com/guysoft/MagicMirrorOS
