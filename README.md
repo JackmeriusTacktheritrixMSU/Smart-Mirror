@@ -20,18 +20,21 @@ Do not screw into the mirror. The screws need only hold the mirror in place ligh
 
 Wall Mounting is handled in two parts so its easily take downable<img width="881" height="471" alt="image" src="https://github.com/user-attachments/assets/d7ebd356-2374-4472-b074-07c7d27eff79" />
 
-Screw these hooks into your wall. Made of 2x2 and 1x2s. Sand the bottom face so the 2x2s are just slightly less than 2x2, maybe something like 2x1.9. Then sand a nice chamfer to guide the mirror in. The mirror has cooresponding receptacles <img width="907" height="567" alt="image" src="https://github.com/user-attachments/assets/4bc64522-e9f3-4408-bd95-27c7e5527eae" />
-Which hold the hooks.
+Screw these hooks into your wall. Made of 2x2 and 1x2s. Sand the bottom face so the 2x2s are just slightly less than 2x2, maybe something like 2x1.9. Then sand a nice chamfer to guide the mirror in. The mirror has cooresponding receptacles which hold the hooks. <img width="907" height="567" alt="image" src="https://github.com/user-attachments/assets/4bc64522-e9f3-4408-bd95-27c7e5527eae" />
+
 
 
 *Wood*
+
 In the BOM, Wood is just listed by order so heres the breakdown
 You need 2 counts 1/2 inch by 3 inch pieces, 29 inches, 2 of the same size face but 17 inches long
 You need 2 counts 1 inch by 3 inch pieces, 29 inches, and 2 of the same size face but 21 inches long, and two more at 4 inches long
 Two 1x2s, 27 inches long, two 1x2s each 5 inches long
 Two 2x2s, each 10 inches long
+
 *Electronics*
-The project uses a Raspberry Pi 5 (Or any number of PI that can run Magic Mirror OS). The PI5 sits on a 3D Printed electronics sled which screws into the frame, along with a DC-DC Converter. The DC-DC Converter is automotive grade with a 5A max. The purpose here is so you can use just one power supply unit, at 12V and no less than 5A, to power the monitor and the Raspberry Pi. The PSU plugs in via Barrel Jack Receptacle. Additionally, you may want some kind of push button switch. Get one with a threaded circular back and just drill a hole for it. For AR capabilities, you need a webcam as well. You can route a hole, and plug it in via usb to the raspberry pi. If you're totally neurotic like me, you'll probably craft a way to send the webcam to a gpio pin just because you don't want to route usb all the way to the other side of the pi because it would look bad
+
+The project uses a Raspberry Pi 4B, which sits on a 3D Printed electronics sled which screws into the frame, along with a DC-DC Converter. The DC-DC Converter is automotive grade with a 5A max. The purpose here is so you can use just one power supply unit, at 12V and no less than 5A, to power the monitor and the Raspberry Pi. The PSU plugs in via Barrel Jack Receptacle. Additionally, you may want some kind of push button switch. Get one with a threaded circular back and just drill a hole for it. For AR capabilities, you need a webcam as well. You can route a hole, and plug it in via usb to the raspberry pi. If you're totally neurotic like me, you'll probably craft a way to send the webcam to a gpio pin just because you don't want to route usb all the way to the other side of the pi because it would look bad
 <img width="860" height="615" alt="image" src="https://github.com/user-attachments/assets/8fdbb6a1-4102-4015-ba40-87086d25fd3e" />
 <img width="1346" height="848" alt="WiringDiagram" src="https://github.com/user-attachments/assets/9a23f0ae-6b83-45a6-b674-f6a674a32ade" />
 
