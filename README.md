@@ -65,6 +65,6 @@ BOM
 | ESP32  | 1 | 18 | [View](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Bluetooth-ESP32-DevKitC-32-Development/dp/B0CNYK7WT2/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.qMJJKscaTbDZH8KOrPXaSvL_Wne5ocv0hstobsx2BPxRZhxswDSoA84sKktYY5K4-POEZYa85W79ljFE73xazud66X76xJ5R_C_mREVpeS8L0eeds9uEiyg1kEH-FY1L1X3qvGT1tS2VXli5lwokEq2Eu7PNj6m2O2XuzCIex1J_wlddmR7v14a8MiZHvyLdvR3wBCael7z1MK9nL8nG6xa7NGz2iMOA0oEVPOui0aU.Bski68cJcIyjGGs4OURX38cbTpBKRHduls_TGJnNMgU&dib_tag=se&keywords=esp32+wroom&qid=1775413867&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) | ❌ |
 | SHT30 Sensor| — | — | [View](https://www.adafruit.com/product/5064?srsltid=AfmBOorFtoxeVo1_rGB0Ptb9_4VkyDuGQjxKZTMGRHcSOYPGJ1WbQ4jiU8Y) | ✅ |
 | Logitech C910| — | — | [View](https://www.ebay.com/itm/227025394101?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item) | ✅ |
-| Estimated Total Project Cost | **$$242.90** |
+| Estimated Total Project Cost | **$$161** |
 
 - — = Cost not counted toward build total
