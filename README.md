@@ -42,7 +42,7 @@ The project uses an older HP Mini pc, which plugs into a webcam, a monitor, and 
 
 
 *Programming* 
-The mirror uses Magic Mirror OS. Full credit goes to Guysoft and their collaborators https://github.com/guysoft/MagicMirrorOS
+The programming is mostly a configured version of Magic Mirror (The app version) made to run on the mini pc running ubuntu. Mine just also has modules to allow me to read humidity and temperature in the room and wakeup with the distance sensor. Its a simple install, you can use sudo.
 
 
 
