@@ -1,5 +1,5 @@
 # Smart-Mirror
-I wanted to create a smart mirror which blended a distance sensor, webcam, and fully accessible raspberry pi. Its got a nice modern look to it, it can do things like tell you positive affirmations- tell you the time, etc. 
+I wanted to create a smart mirror which blended a distance sensor, webcam, and fully accessible mini pc. Its got a nice modern look to it, it can do things like tell you positive affirmations- tell you the time, etc. 
 I made it because my current mirror isn't smart, which is boring. It doesn't have any lights or anything. I'm also trying to get into smart home things, mostly because I think it would be awesome. 
 
 *The Design*
@@ -36,7 +36,8 @@ Two 2x2s, each 10 inches long
 
 The project uses a Raspberry Pi 4B, which sits on a 3D Printed electronics sled which screws into the frame, along with a DC-DC Converter. The DC-DC Converter is automotive grade with a 5A max. The purpose here is so you can use just one power supply unit, at 12V and no less than 5A, to power the monitor and the Raspberry Pi. The PSU plugs in via Barrel Jack Receptacle. Additionally, you may want some kind of push button switch. Get one with a threaded circular back and just drill a hole for it. For AR capabilities, you need a webcam as well. You can route a hole, and plug it in via usb to the raspberry pi. If you're totally neurotic like me, you'll probably craft a way to send the webcam to a gpio pin just because you don't want to route usb all the way to the other side of the pi because it would look bad
 <img width="860" height="615" alt="image" src="https://github.com/user-attachments/assets/8fdbb6a1-4102-4015-ba40-87086d25fd3e" />
-<img width="3000" height="2106" alt="circuit_image" src="https://github.com/user-attachments/assets/f05cf2ee-01d5-4e96-859f-4481de186453" />
+<img width="1505" height="932" alt="Wiring Diagram" src="https://github.com/user-attachments/assets/63730795-5202-4149-afad-41afa94aeb05" />
+
 
 
 *Programming* 
@@ -53,15 +54,15 @@ BOM
 | Part | Qty | Price (w/ Tax) | Link | Owned |
 |------|-----|---------------|------|-------|
 | Two Way Mirror 18x24 | 1 | $131.86 | [View](https://www.amazon.com/SupremeTech-See-Through-Two-Way-Mirror-Tempered/dp/B09SBX9JS2) | ❌ |
-| Raspberry Pi 4B | 1 | $56.25 | [View](https://vilros.com/) | ❌ |
+| HP Mini | 1 | - | [View](**https://www.amazon.com/HP-Prodesk-600-G3-Computer/dp/B07RLW1QB8**) | ✅  |
 | 27" Monitor | 1 | $63.29 | [View](https://www.walmart.com/ip/seort/15706505660) | ❌ |
 | 20" of 2x2 Lumber | 1 | $2.97 | [View](https://www.homedepot.com/p/2-in-x-2-in-x-8-ft-Furring-Strip-Board-165360/202076422) | ❌ |
 | 64" of 1x2 Lumber | 1 | $1.72 | [View](https://www.homedepot.com/p/1-in-x-2-in-x-8-ft-Furring-Strip-Board-160954/100009348) | ❌ |
 | 110" of 1x3 Oak Boards | 10 | $29.80 | [View](https://www.homedepot.com/p/Weaber-1-in-x-3-in-Random-Length-S4S-Oak-Hardwood-Boards-22055/207059034) | ❌ |
 | 94" of 0.5x3 Oak Board | 1 | $11.98 | [View](https://www.homedepot.com/p/Weaber-1-2-in-x-3-in-x-4-ft-S4S-Oak-Board-27415/207058977) | ❌ |
 | JSN-SR04T Ultrasonic Sensor | — | — | [View](https://www.amazon.com/HiLetgo-Integrated-Ultrasonic-Transducer-Waterproof/dp/B07X5H77T7) | ✅ |
-| 16mm Momentary Switch | — | — | [View](https://amazon.com/APIELE-Momentary-Waterproof-Stainless-Terminals/dp/B09SLHQVHL) | ✅ |
-| DC-DC Converter | — | — | [View](https://amazon.com/Stabilizer-DROK-Waterproof-Transformer-Television/dp/B081RG8XP5) | ✅ |
+| IEC Fuse | 1 | 10 | [View](https://www.amazon.com/FILSHU-Socket-Module-Wiring%EF%BC%8Ciec320-illuminated/dp/B08L2522DF) | ❌ |
+| ESP32  | 1 | 18 | [View](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Bluetooth-ESP32-DevKitC-32-Development/dp/B0CNYK7WT2/ref=sr_1_2_sspa?dib=eyJ2IjoiMSJ9.qMJJKscaTbDZH8KOrPXaSvL_Wne5ocv0hstobsx2BPxRZhxswDSoA84sKktYY5K4-POEZYa85W79ljFE73xazud66X76xJ5R_C_mREVpeS8L0eeds9uEiyg1kEH-FY1L1X3qvGT1tS2VXli5lwokEq2Eu7PNj6m2O2XuzCIex1J_wlddmR7v14a8MiZHvyLdvR3wBCael7z1MK9nL8nG6xa7NGz2iMOA0oEVPOui0aU.Bski68cJcIyjGGs4OURX38cbTpBKRHduls_TGJnNMgU&dib_tag=se&keywords=esp32+wroom&qid=1775413867&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) | ❌ |
 | SHT30 Sensor| — | — | [View](https://www.adafruit.com/product/5064?srsltid=AfmBOorFtoxeVo1_rGB0Ptb9_4VkyDuGQjxKZTMGRHcSOYPGJ1WbQ4jiU8Y) | ✅ |
 | Logitech C910| — | — | [View](https://www.ebay.com/itm/227025394101?chn=ps&mkevt=1&mkcid=28&google_free_listing_action=view_item) | ✅ |
 | Estimated Total Project Cost | **$$242.90** |
