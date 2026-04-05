@@ -34,8 +34,9 @@ Two 2x2s, each 10 inches long
 
 *Electronics*
 
-The project uses a Raspberry Pi 4B, which sits on a 3D Printed electronics sled which screws into the frame, along with a DC-DC Converter. The DC-DC Converter is automotive grade with a 5A max. The purpose here is so you can use just one power supply unit, at 12V and no less than 5A, to power the monitor and the Raspberry Pi. The PSU plugs in via Barrel Jack Receptacle. Additionally, you may want some kind of push button switch. Get one with a threaded circular back and just drill a hole for it. For AR capabilities, you need a webcam as well. You can route a hole, and plug it in via usb to the raspberry pi. If you're totally neurotic like me, you'll probably craft a way to send the webcam to a gpio pin just because you don't want to route usb all the way to the other side of the pi because it would look bad
-<img width="860" height="615" alt="image" src="https://github.com/user-attachments/assets/8fdbb6a1-4102-4015-ba40-87086d25fd3e" />
+The project uses an older HP Mini pc, which plugs into a webcam, a monitor, and an esp32 wroom on a 3D Printed sled inside the casing. The esp runs an sht30 sensor for temp and humidity, and a distance sensor for a wakeup feature. Its all powered with an iec inlet which splits off.
+<img width="950" height="728" alt="image" src="https://github.com/user-attachments/assets/e93e44f6-7df4-427b-bd7d-53c006d4f5a3" />
+
 <img width="1505" height="932" alt="Wiring Diagram" src="https://github.com/user-attachments/assets/63730795-5202-4149-afad-41afa94aeb05" />
 
 
