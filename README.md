@@ -1,3 +1,4 @@
+<img width="3024" height="4032" alt="IMG_3508" src="https://github.com/user-attachments/assets/650ab2ce-5034-42dc-b2bc-07990930901d" />
 # Smart-Mirror
 I wanted to create a smart mirror which blended a distance sensor, webcam, and fully accessible mini pc. Its got a nice modern look to it, it can do things like tell you positive affirmations- tell you the time, etc. 
 I made it because my current mirror isn't smart, which is boring. It doesn't have any lights or anything. I'm also trying to get into smart home things, mostly because I think it would be awesome. 
